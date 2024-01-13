@@ -57,3 +57,11 @@ print(list_2)
 # Empty list
 empty_list = []
 empty_list = list()
+
+# in operator and for loop through list
+print("Art" in courses)
+for course in courses:
+    print(course)
+
+for index, course in enumerate(courses, start=1):
+    print(index, course)

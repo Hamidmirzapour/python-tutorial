@@ -37,3 +37,11 @@ print(list_2)
 # Empty tuple
 empty_tuple = ()
 empty_tuple = tuple()
+
+# in operator and for loop through list
+print("Art" in courses)
+for course in courses:
+    print(course)
+
+for index, course in enumerate(courses, start=1):
+    print(index, course)
