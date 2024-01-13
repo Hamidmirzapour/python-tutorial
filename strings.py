@@ -7,6 +7,10 @@ some_text = "Bobby's World"
 multiline_text = """Bobby's World is the name of animation
 at the end of 1990's."""
 
+# Formatted String
+print("{}. {}".format(some_text, multiline_text))
+print(f"{some_text}. {multiline_text}")
+
 replaced_message = message.replace('World', 'Universe')
 
 print(message)
