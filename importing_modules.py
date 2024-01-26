@@ -1,3 +1,7 @@
+""""
+This module practice working with importing mudules.
+"""
+
 # import my_module
 # import my_module as mm
 from my_module import find_index, test
