@@ -10,8 +10,10 @@ while True:
     except ValueError as e:
         print("Enter a valid number.")
         continue
-
-    if guess > random_number:
+    
+    if guess > high_num or guess < low_num:
+        print(f"You should guess the number in the range from {low_num} to {high_num}")
+    elif guess > random_number:
         print("The number is lower")
     elif guess < random_number:
         print("The number is higher")
